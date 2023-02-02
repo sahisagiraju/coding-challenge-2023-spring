@@ -33,3 +33,5 @@ Now the data seems less scattered. There appears to be a negative slope, curving
 
 
 Although I plan to do more with the data, this is what I have prepared for now. In the future, my next steps would be to take the data apart. I would then separate the data into the four main categories (three in this case, as there appears to be no indicator of a giant in this group): giants, supergiants, main sequence, and white dwarfs. I would then like to create lines of regression for each of these groups and calculate how much each star varies from the equations. This would help to prove the HR diagrams more.
+
+Moreover, I would plan to study a star's age and place on the HR diagram. I would plot a star on the HR diagram, then, based on how far along the main sequence it is (i.e. half way, almost at the end, beginning, etc.) determine its age. I would do this for stars along the main sequence and also for the other groups, and then compile all the data. With this new data regarding ages, I would compare the age with its real age (calculated by using its rotation rate) to see what the relationship is between a star's age and how far along it is on the HR diagram.
