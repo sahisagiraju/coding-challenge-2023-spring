@@ -10,3 +10,26 @@ After given this data, my immediate question was to see how these stars would co
 Afterwards, however, after realizing that the HR diagram was given with a reversed horizontal axis and that both axis were in log form, I reset the chart and noticed the clear similarity. 
 
 
+![image](https://github.com/sahisagiraju/coding-challenge-2023-spring/blob/main/Screenshot%202023-02-01%20at%2010.07.10%20PM.png?raw=true)
+
+My chart definitely matched the HR diagram. This was cool but after comparing the diagram with my chart, I noticed that there were no “giants” as it was indicated on the HR diagram. Other than that, everything else seemed fairly similar- the downward trend representing the main sequence matched that of the diagram, and so did the super giants area on the top portion of the chart, and the white dwarves on the bottom, left half of the diagram. They were indeed consistent with the trends evident in the diagram.
+
+My next observation was with certain matching axes that I noticed when I searched up HR diagrams. Many diagrams had axes parallel to each other with completely different variables. For example, in this HR diagram, the absolute magnitude was parallel to the luminosity, and the temperature was parallel to the spectral class. I wanted to see if luminosity was related to a star’s absolute magnitude.
+
+
+![image](https://github.com/sahisagiraju/coding-challenge-2023-spring/blob/main/Screenshot%202023-02-01%20at%2010.07.16%20PM.png?raw=true)
+
+![image](https://github.com/sahisagiraju/coding-challenge-2023-spring/blob/main/Screenshot%202023-02-01%20at%2010.07.22%20PM.png?raw=true)
+
+
+Once again there appears to be no real correlation. So I once again decided to conduct the logarithmic version of these axes.
+
+![image](https://github.com/sahisagiraju/coding-challenge-2023-spring/blob/main/Screenshot%202023-02-01%20at%2010.07.28%20PM.png?raw=true)
+
+
+Now the data seems less scattered. There appears to be a negative slope, curving downwards. I conducted regression tests with different equations (linear, quadratic, etc.) and the power series had the greatest R2 value for the data. Therefore, this might be the most accurate formula used to represent the line of best fit for this data. The equation y = 1.19x-2.58 became the most accurate representation, with a R2 value of 0.723. Though this does not prove that luminosity is directly proportional to the absolute magnitude, it did tell us that there is roughly strong correlation between the two variables.
+
+![image](https://github.com/sahisagiraju/coding-challenge-2023-spring/blob/main/Screenshot%202023-02-01%20at%2010.07.33%20PM.png?raw=true)
+
+
+Although I plan to do more with the data, this is what I have prepared for now. In the future, my next steps would be to take the data apart. I would then separate the data into the four main categories (three in this case, as there appears to be no indicator of a giant in this group): giants, supergiants, main sequence, and white dwarfs. I would then like to create lines of regression for each of these groups and calculate how much each star varies from the equations. This would help to prove the HR diagrams more.
